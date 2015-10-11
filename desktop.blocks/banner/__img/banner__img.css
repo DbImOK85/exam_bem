@@ -1,0 +1,15 @@
+.banner__img{
+    position: relative;
+}
+
+.banner__img:before{
+    content:'';
+    background: url("img/content-image-4.png");
+    width: 225px;
+    height: 364px;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    bottom: -61px;
+    right: 50px;
+}

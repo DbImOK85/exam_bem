@@ -1,0 +1,10 @@
+.footer__logo_text {
+    text-align: left;
+    width: 71%;
+    float: left;
+    font-size: 26px;
+    padding: 5px 15px;
+    border-bottom:none;
+    border-right:2px solid #2980b9;
+
+}

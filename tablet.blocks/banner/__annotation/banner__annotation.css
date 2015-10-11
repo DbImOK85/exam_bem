@@ -1,0 +1,8 @@
+.banner__annotation{
+    display: block;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 25px;
+    padding-left: 20px;
+    width: 55%;
+}

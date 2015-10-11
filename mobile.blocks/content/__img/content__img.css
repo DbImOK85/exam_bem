@@ -1,0 +1,7 @@
+.content__img{
+    width: 288px;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}

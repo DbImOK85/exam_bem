@@ -1,0 +1,11 @@
+.form__button{
+    background-color: #e74c3c;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    height: 50px;
+    width: 72%;
+    font-size: 20px;
+    margin-top: 32px;
+    -moz-appearance: none;
+    border: 1px solid #E6E6E6;
+}

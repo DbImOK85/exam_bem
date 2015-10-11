@@ -1,0 +1,21 @@
+.sprite-face{
+    background: url("img/social-network-facebook.svg");
+    background-repeat: no-repeat;
+}
+
+.sprite-google{
+    background: url("img/social-network-google-plus.svg");
+    background-repeat: no-repeat;
+}
+
+.sprite-twit{
+    background: url("img/social-network-twitter.svg");
+    background-repeat: no-repeat;
+}
+.sprite{
+
+    width: 22px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: middle;
+}

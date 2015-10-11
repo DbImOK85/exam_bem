@@ -1,0 +1,18 @@
+.comments__text{
+    padding: 52px 20px;
+    quotes: "“" "”" "‘" "’";
+    height: 354px;
+}
+
+.comments__text:before{
+    font-size: 50px;
+    color: #F2F2F2;
+    content: open-quote;
+}
+
+.comments__text:after{
+    font-size: 50px;
+    color: #F2F2F2;
+    content: close-quote;
+    margin-left: 95%;
+}

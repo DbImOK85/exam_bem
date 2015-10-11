@@ -1,0 +1,19 @@
+.comments__text{
+    width: 66%;
+    padding: 0px;
+    height: 170px;
+    padding-left: 20px;
+}
+
+.comments__text:before{
+    font-size: 50px;
+    color: #F2F2F2;
+    content: open-quote;
+}
+
+.comments__text:after{
+    font-size: 50px;
+    color: #F2F2F2;
+    content: close-quote;
+    margin-left: 98%;
+}

@@ -1,0 +1,10 @@
+.form__item{
+    font-size: 15px;
+    margin-top: 10px;
+    -moz-appearance: none;
+    padding: 8px 15px;
+    border: 1px solid #E6E6E6;
+    background-color: #F2F2F2;
+    width: 91%;
+
+}

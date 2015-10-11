@@ -1,0 +1,22 @@
+
+.nav__btn_left{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #E8E8E8;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.nav__btn_left:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    display: inline-block;
+    transform: rotate(-135deg);;
+    margin-top: 10px;
+    margin-left: 6px;
+}

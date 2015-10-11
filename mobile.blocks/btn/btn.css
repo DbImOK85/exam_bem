@@ -1,0 +1,12 @@
+.btn{
+    background-color: #e74c3c;
+    width: 95%;
+    height: 130px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.8;
+    position: relative;
+    padding: 12px 26px;
+}
