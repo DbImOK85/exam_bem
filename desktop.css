@@ -1,9 +1,13 @@
 .wrap{
-    width: 990px;
+    width: 985px;
     margin: 0 auto;
 }
 .banner{
     padding-bottom: 122px;
+}
+.btn{
+    margin: 0px;
+    width: 500px;
 }
 .button{
     background-color: #e74c3c;
@@ -13,18 +17,6 @@
     width: 72%;
     font-size: 20px;
     margin-top: 32px;
-}
-.clearfix:before{
-    content:'';
-    display: table;
-}
-
-.clearfix:after{
-    content:'';
-    display: table;
-}
-.comments{
-    padding-bottom: 20px;
 }
 .content{
     display: inline-block;
@@ -68,21 +60,13 @@
     color: #000;
     background: #fff;
 }
+.point{
+    height: 534px;
+}
 *{
     box-sizing: border-box;
     margin:0px;
     padding:0px;
-}
-.btn{
-    margin: 0px;
-    width: 500px;
-}
-.wrapper{
-    width: 990px;
-    margin: 0 auto;
-}
-.point{
-    height: 534px;
 }
 .sprite-face{
     background: url("img/social-network-facebook.svg");
@@ -108,20 +92,29 @@
 .text{
     height: 110px;
 }
-.about__head{
-    padding: 20px 0;
+.clearfix:before{
+    content:'';
+    display: table;
 }
-.about__text{
-    width: 590px;
-    padding: 18px 0px 37px;
+
+.clearfix:after{
+    content:'';
+    display: table;
 }
-.banner__annotation{
-    padding-left: 5px;
-    width: 510px;
+.comments{
+    padding-bottom: 20px;
+}
+.wrapper{
+    width: 985px;
+    margin: 0 auto;
 }
 .banner__form{
     width: 377px;
     left: 61%;
+}
+.banner__head{
+    padding-left: 5px;
+    padding-top: 50px;
 }
 .banner__img{
     position: relative;
@@ -138,48 +131,22 @@
     bottom: -61px;
     right: 50px;
 }
-.comments__head{
-    padding: 36px 0px;
-}
-.banner__head{
+.banner__annotation{
     padding-left: 5px;
-    padding-top: 50px;
+    width: 510px;
 }
-.comments__nav{
-    padding: 30px 0 30px 150px;
+.btn__nav{
     float: none;
+    margin: 3px 37px;
+}
+.content__advantage{
+    width: 290px;
+    padding: 20px 0;
 }
 .content__descr{
     padding: 0px;
     width: 290px;
     height: 150px;
-}
-.comments__text{
-    padding: 0px;
-}
-
-
-.content__btn{
-    margin: 0px;
-}
-.content__img{
-    height: 159px;
-    width: 290px;
-}
-.content__img_plant{
-    background: url("img/content-image-1.png") repeat scroll 0% 50%;
-}
-
-.content__img_sciencist{
-    background: url("img/content-image-2.png") repeat scroll 0% 50%;
-}
-.content__img_teacher{
-    background: url("img/content-image-3.png") repeat scroll 0% 50%;
-
-}
-.content__advantage{
-    width: 290px;
-    padding: 20px 0;
 }
 .footer__info{
     width: 620px;
@@ -214,14 +181,30 @@
     float: left;
     padding-top: 55px;
 }
-.btn__text{
-    width: 375px;
-    padding-left: 20px;
+.content__btn{
+    margin: 0px;
 }
-.btn__nav{
-    float: none;
-    margin: 3px 37px;
+.content__img{
+    height: 159px;
+    width: 290px;
 }
+.content__img_plant{
+    background: url("img/content-image-1.png") repeat scroll 0% 50%;
+}
+
+.content__img_sciencist{
+    background: url("img/content-image-2.png") repeat scroll 0% 50%;
+}
+.content__img_teacher{
+    background: url("img/content-image-3.png") repeat scroll 0% 50%;
+
+}
+.head__logo_text {
+    font-size: 26px;
+    padding-left: 15px;
+    border-bottom: none;
+}
+
 .point__head{
     padding: 20px 0px;
 }
@@ -232,8 +215,25 @@
     text-align: right;
     padding-top: 13px;
 }
-.head__logo_text {
-    font-size: 26px;
-    padding-left: 15px;
-    border-bottom: none;
+.btn__text{
+    width: 375px;
+    padding-left: 20px;
 }
+.comments__nav{
+    padding: 30px 0 30px 150px;
+    float: none;
+}
+.comments__head{
+    padding: 36px 0px;
+}
+.about__text{
+    width: 590px;
+    padding: 18px 0px 37px;
+}
+.about__head{
+    padding: 20px 0;
+}
+.comments__text{
+    padding: 0px;
+}
+
