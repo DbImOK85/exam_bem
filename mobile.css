@@ -1,15 +1,3 @@
-.about{
-
-    background-color: #F2F2F2;
-    padding-top: 415px;
-    text-align: center;
-}
-.banner{
-    background: transparent url("img/banner-bg.png") no-repeat scroll 50% 0%;
-    color: #FFFFFF;
-    padding-top: 34px;
-    padding-bottom: 174px;
-}
 .btn{
     background-color: #e74c3c;
     width: 95%;
@@ -22,6 +10,9 @@
     position: relative;
     padding: 12px 26px;
 }
+.comments{
+    padding-bottom: 20px;
+}
 .clearfix:before{
     content:'';
     display: table;
@@ -32,40 +23,23 @@
     display: table;
 }
 
-.comments{
-    padding-bottom: 20px;
-}
 .content{
     margin: 0 auto;
     padding: 0 15px;
     height: 458px;
 
 }
-.footer{
-    background-color: #3498db;
-    color: #FFFFFF;
+.about{
+
+    background-color: #F2F2F2;
+    padding-top: 415px;
     text-align: center;
 }
-.form:after{
-    content: "";
-    border-left: 2px solid #000;
-    border-bottom: 2px solid #000;
-    position: relative;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    top: -387px;
-    left: 3%;
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-
-}
-
-.header{
-    background-color: #3498db;
+.banner{
+    background: transparent url("img/banner-bg.png") no-repeat scroll 50% 0%;
     color: #FFFFFF;
-    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 174px;
 }
 .page{
     font: 10px/1 Arial, Helvetica, sans-serif;
@@ -114,69 +88,31 @@
 .wrapper{
     padding: 18px 0px;
 }
-.about__head{
-    font-weight: bold;
-    font-size:15px;
-    text-transform: uppercase;
-    padding: 0 10px;
-}
-.about__text{
-    font-size: 13px;
-    line-height: 1.5;
-    padding: 18px 20px 37px;
-    height: 250px;
-}
-.banner__annotation{
-    text-align: center;
-    line-height: 1.5;
-    font-size: 16px;
-    padding: 15px 35px;
-    height: 100px;
-}
-.banner__bottom{
-    background-color: #F2F2F2;
-    padding: 60px 0;
-
-}
-.banner__form{
-    padding: 10px;
-    height: 542px;
-    background: #FFF none repeat scroll 0% 0%;
-    color: #000;
-    width: 95%;
-    text-align: center;
-    border-bottom: 5px solid #3498DB;
-    margin: 20px auto;
-    position: absolute;
-    left: 2.5%;
-}
-.banner__form_head{
-    text-align: center;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-top: 24px;
-    padding-bottom: 17px;
-}
-.banner__head{
-    text-align: center;
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.banner__img{
+.form:after{
+    content: "";
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
     position: relative;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: -387px;
+    left: 3%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+
 }
 
-.banner__img:before{
-    content:'';
-    background: url("img/content-image-4.png");
-    width: 225px;
-    height: 364px;
-    background-repeat: no-repeat;
-    display: block;
-    position: absolute;
-    bottom: -61px;
-    right: 50px;
+.header{
+    background-color: #3498db;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer{
+    background-color: #3498db;
+    color: #FFFFFF;
+    text-align: center;
 }
 .btn__nav{
     display: inline-block;
@@ -319,16 +255,14 @@
     height: 117px;
 }
 .content__img{
-    width: 288px;
+    width: 260px;
     height: 160px;
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
 }
 .content__img_plant{
-    background: url("img/content-image-1.png");
-
-
+    background: url("img/content-image-1.png") repeat scroll 10% 68%;
 }
 .content__img_sciencist{
     background: url("img/content-image-2.png");
@@ -337,38 +271,83 @@
     background: url("img/content-image-3.png");
 
 }
-.footer__info{
-    text-decoration: none;
-    display: inline-block;
-    padding: 38px 35px 67px;
-    font-size: 13px;
-}
-.footer__logo{
+.about__head{
+    font-weight: bold;
+    font-size:15px;
     text-transform: uppercase;
+    padding: 0 10px;
+}
+.about__text{
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 18px 20px 37px;
+    height: 250px;
+}
+.banner__annotation{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 15px 35px;
+    height: 100px;
+}
+.banner__bottom{
+    background-color: #F2F2F2;
+    padding: 60px 0;
 
 }
-.footer__logo_circle{
+.banner__form{
+    padding: 10px;
+    height: 542px;
+    background: #FFF none repeat scroll 0% 0%;
+    color: #000;
+    width: 95%;
+    text-align: center;
+    border-bottom: 5px solid #3498DB;
+    margin: 20px auto;
+    position: absolute;
+    left: 2.5%;
+}
+.banner__form_head{
+    text-align: center;
     font-size: 20px;
-    border-radius: 30px;
-    border: 2px solid #FFF;
-    width: 50px;
-    height: 50px;
-    line-height: 45px;
-    display: inline-block;
-
+    text-transform: uppercase;
+    padding-top: 24px;
+    padding-bottom: 17px;
 }
-.footer__logo_text {
+.banner__head{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner__img{
+    position: relative;
+}
+
+.banner__img:before{
+    content:'';
+    background: url("img/content-image-4.png");
+    width: 225px;
+    height: 364px;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    bottom: -61px;
+    right: 50px;
+}
+.point__head{
     font-size: 20px;
-    padding-top: 12px;
-    border-bottom: 1px solid #2980B9;
-    width: 174px;
-    margin: 0px auto;
-    padding-bottom: 6px;
+    color: #3498db;
+    text-transform: uppercase;
+    padding-top: 33px;
+    padding-bottom: 15px;
 }
-
-.footer__network{
-    padding: 10px 0px 4px;
-    vertical-align: middle;
+.text__citat{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+    padding-top: 13px;
 }
 .form__button{
     background-color: #e74c3c;
@@ -438,17 +417,36 @@
 .network__link{
     text-decoration: none;
 }
-.point__head{
-    font-size: 20px;
-    color: #3498db;
-    text-transform: uppercase;
-    padding-top: 33px;
-    padding-bottom: 15px;
+.footer__info{
+    text-decoration: none;
+    display: inline-block;
+    padding: 38px 35px 67px;
+    font-size: 13px;
 }
-.text__citat{
+.footer__logo{
     text-transform: uppercase;
-    font-weight: bold;
-    display: block;
-    text-align: right;
-    padding-top: 13px;
+
+}
+.footer__logo_circle{
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid #FFF;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: inline-block;
+
+}
+.footer__logo_text {
+    font-size: 20px;
+    padding-top: 12px;
+    border-bottom: 1px solid #2980B9;
+    width: 174px;
+    margin: 0px auto;
+    padding-bottom: 6px;
+}
+
+.footer__network{
+    padding: 10px 0px 4px;
+    vertical-align: middle;
 }

@@ -28,13 +28,13 @@
     height: 240px;
 
 }
-.text{
-    height: 110px;
-}
 .wrapper{
     display: inline-block;
     width: 95%;
     border-bottom: none;
+}
+.text{
+    height: 110px;
 }
 .about__head{
     display: block;
@@ -120,6 +120,7 @@
 }
 .content__img{
     float: left;
+    width: 290px;
 }
 .footer__info{
     padding: 0px 0px 85px;
@@ -170,15 +171,15 @@
     float: right;
 }
 
-.point__head{
-    padding-left: 20px;
-    padding-bottom: 20px;
-    text-align: left;
-}
 .text__citat{
     text-transform: uppercase;
     font-weight: bold;
     display: block;
     text-align: right;
     padding-top: 13px;
+}
+.point__head{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: left;
 }

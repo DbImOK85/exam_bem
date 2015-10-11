@@ -4,9 +4,11 @@
     border-bottom: 2px solid #000;
     position: relative;
     transform: rotate(-45deg);
-    top: -398px;
+    top: -390px;
     left: 10px;
     width: 10px;
     height: 10px;
     display: inline-block;
+    margin: 0;
+    padding: 0;
 }
