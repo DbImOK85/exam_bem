@@ -5,6 +5,28 @@
 .banner{
     padding-bottom: 122px;
 }
+.clearfix:before{
+    content:'';
+    display: table;
+}
+
+.clearfix:after{
+    content:'';
+    display: table;
+}
+.content{
+    display: inline-block;
+    width: 287px;
+    text-align: center;
+    float: left;
+    height: 440px;
+    padding: 0px;
+
+}
+.content_center{
+ margin: 0px 60px;
+
+}
 .btn{
     margin: 0px;
     width: 500px;
@@ -18,41 +40,9 @@
     font-size: 20px;
     margin-top: 32px;
 }
-.content{
-    display: inline-block;
-    width: 290px;
-    text-align: center;
-    float: left;
-    height: 440px;
-    padding: 0px;
-
+.comments{
+    padding-bottom: 20px;
 }
-.content_center{
- margin: 0px 60px;
-
-}
-.footer{
-    background-color: #3498db;
-    color: #FFFFFF;
-    text-align: center;
-}
-.form:after{
-    content: "";
-    border-left: 2px solid #000;
-    border-bottom: 2px solid #000;
-    position: relative;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    top: -390px;
-    left: 10px;
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-
 .page{
     font: 10px/1 Arial, Helvetica, sans-serif;
     min-height: 100%;
@@ -92,21 +82,38 @@
 .text{
     height: 110px;
 }
-.clearfix:before{
-    content:'';
-    display: table;
-}
-
-.clearfix:after{
-    content:'';
-    display: table;
-}
-.comments{
-    padding-bottom: 20px;
-}
 .wrapper{
     width: 985px;
     margin: 0 auto;
+}
+.footer{
+    background-color: #3498db;
+    color: #FFFFFF;
+    text-align: center;
+}
+.form:after{
+    content: "";
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    position: relative;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: -390px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.about__head{
+    padding: 20px 0;
+}
+.banner__annotation{
+    padding-left: 5px;
+    width: 510px;
 }
 .banner__form{
     width: 377px;
@@ -131,22 +138,72 @@
     bottom: -61px;
     right: 50px;
 }
-.banner__annotation{
-    padding-left: 5px;
-    width: 510px;
-}
-.btn__nav{
-    float: none;
-    margin: 3px 37px;
+.about__text{
+    width: 590px;
+    padding: 18px 0px 37px;
 }
 .content__advantage{
     width: 290px;
     padding: 20px 0;
 }
+.content__btn{
+    margin: 0px;
+}
 .content__descr{
     padding: 0px;
     width: 290px;
     height: 150px;
+}
+.content__img{
+    height: 159px;
+    width: 290px;
+}
+.content__img_plant{
+    background: url("img/content-image-1.png") repeat scroll 0% 50%;
+}
+
+.content__img_sciencist{
+    background: url("img/content-image-2.png") repeat scroll 0% 50%;
+}
+.content__img_teacher{
+    background: url("img/content-image-3.png") repeat scroll 0% 50%;
+
+}
+.btn__nav{
+    float: none;
+    margin: 3px 37px;
+}
+.comments__head{
+    padding: 36px 0px;
+}
+.comments__nav{
+    padding: 30px 0 30px 150px;
+    float: none;
+}
+.comments__text{
+    padding: 0px;
+}
+
+
+.head__logo_text {
+    font-size: 26px;
+    padding-left: 15px;
+    border-bottom: none;
+}
+
+.point__head{
+    padding: 20px 0px;
+}
+.text__citat{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+    padding-top: 13px;
+}
+.btn__text{
+    width: 375px;
+    padding-left: 20px;
 }
 .footer__info{
     width: 620px;
@@ -181,59 +238,3 @@
     float: left;
     padding-top: 55px;
 }
-.content__btn{
-    margin: 0px;
-}
-.content__img{
-    height: 159px;
-    width: 290px;
-}
-.content__img_plant{
-    background: url("img/content-image-1.png") repeat scroll 0% 50%;
-}
-
-.content__img_sciencist{
-    background: url("img/content-image-2.png") repeat scroll 0% 50%;
-}
-.content__img_teacher{
-    background: url("img/content-image-3.png") repeat scroll 0% 50%;
-
-}
-.head__logo_text {
-    font-size: 26px;
-    padding-left: 15px;
-    border-bottom: none;
-}
-
-.point__head{
-    padding: 20px 0px;
-}
-.text__citat{
-    text-transform: uppercase;
-    font-weight: bold;
-    display: block;
-    text-align: right;
-    padding-top: 13px;
-}
-.btn__text{
-    width: 375px;
-    padding-left: 20px;
-}
-.comments__nav{
-    padding: 30px 0 30px 150px;
-    float: none;
-}
-.comments__head{
-    padding: 36px 0px;
-}
-.about__text{
-    width: 590px;
-    padding: 18px 0px 37px;
-}
-.about__head{
-    padding: 20px 0;
-}
-.comments__text{
-    padding: 0px;
-}
-

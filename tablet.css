@@ -10,12 +10,6 @@
     margin-left: 20px;
     padding: 10px;
 }
-.content{
-    text-align: left;
-    padding: 0px 20px;
-    height: 240px;
-
-}
 .button{
     background-color: #e74c3c;
     color: #FFFFFF;
@@ -27,6 +21,12 @@
 }
 .comments{
     padding-bottom: 20px;
+}
+.content{
+    text-align: left;
+    padding: 0px 20px;
+    height: 240px;
+
 }
 .text{
     height: 110px;
@@ -75,39 +75,15 @@
     width: 83%;
     float: left;
 }
-.content__advantage{
-    display: inline-block;
-    padding-top: 0px;
-    padding-left: 20px;
-}
-.content__btn{
-    text-align: center;
-    margin: 0px 20px;
-}
-.content__descr{
-    padding-left: 310px;
-    padding-right: 15px;
-    height: 88px;
-}
-.content__img{
-    float: left;
-    width: 290px;
-}
-
-.footer__network{
-    float: left;
-    padding-top: 55px;
-}
-.footer__info{
-    padding: 0px 0px 85px;
-    float: left;
-    width: 59%;
-    text-align: left;
-}
 .comments__head{
     width: 70%;
     display: inline-block;
     text-align: left;
+}
+.comments__nav{
+    display: inline-block;
+    padding-left: 130px;
+    float: none;
 }
 .comments__text{
     width: 66%;
@@ -128,10 +104,58 @@
     content: close-quote;
     margin-left: 98%;
 }
-.comments__nav{
+.content__advantage{
     display: inline-block;
-    padding-left: 130px;
-    float: none;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+.head__logo{
+    float: left;
+}
+.head__logo_text {
+    display: inline;
+    border-bottom: none;
+}
+
+.content__img{
+    float: left;
+    width: 290px;
+}
+.content__btn{
+    text-align: center;
+    margin: 0px 20px;
+}
+.content__descr{
+    padding-left: 310px;
+    padding-right: 15px;
+    height: 88px;
+}
+.text__citat{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+    padding-top: 13px;
+}
+.point__head{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.head__network{
+    float: right;
+}
+
+
+.footer__network{
+    float: left;
+    padding-top: 55px;
+}
+.footer__info{
+    padding: 0px 0px 85px;
+    float: left;
+    width: 59%;
+    text-align: left;
 }
 .footer__logo{
     float: left;
@@ -158,28 +182,4 @@
     border-bottom:none;
     border-right:2px solid #2980b9;
 
-}
-.head__logo{
-    float: left;
-}
-.head__logo_text {
-    display: inline;
-    border-bottom: none;
-}
-
-.head__network{
-    float: right;
-}
-
-.point__head{
-    padding-left: 20px;
-    padding-bottom: 20px;
-    text-align: left;
-}
-.text__citat{
-    text-transform: uppercase;
-    font-weight: bold;
-    display: block;
-    text-align: right;
-    padding-top: 13px;
 }
